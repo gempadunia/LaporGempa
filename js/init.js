@@ -4,7 +4,7 @@ function init() {
 }
 document.addEventListener('DOMContentLoaded', init);
 
-var map = L.map('map').setView([-1,120], 5);
+var map = L.map('map').setView([-1.1,120.1], 5);
 
 L.tileLayer(
   'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZGFueWxha3Nvbm8iLCJhIjoiUXRXLUdOVSJ9.zx09INjtQNEB-OoWhOOt3A', {
